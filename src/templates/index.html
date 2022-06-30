@@ -1,1 +1,9 @@
-byle co
+{% extends "base.html" %}
+
+{% block body %}
+<ul>
+{% for slowo in content %}
+  <li>{{ slowo }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
